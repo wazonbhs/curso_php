@@ -2,7 +2,7 @@
 
 $servername = "localhost";
 $username = "root";
-$password = base64_decode('TWltb3Jpc2hhMDE=');
+$password = '';
 $dbname = 'curso_php';
 
 // Create connection
