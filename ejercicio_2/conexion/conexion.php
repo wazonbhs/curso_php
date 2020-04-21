@@ -1,7 +1,7 @@
 <?php 
 
-$servername = "localhost";
-$username = "root";
+$servername = "beatrix.raxa.host";
+$username = "safmx_general";
 $password = '';
 $dbname = 'curso_php';
 
