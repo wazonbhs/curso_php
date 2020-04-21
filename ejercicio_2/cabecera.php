@@ -1,3 +1,9 @@
+<?php 
+session_start();
+
+$usernameA = $_SESSION['user'];
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -49,7 +55,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            Hola <?=$usernameA;?>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
