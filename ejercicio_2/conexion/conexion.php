@@ -1,8 +1,8 @@
 <?php 
 
-$servername = "localhost";
-$username = "root";
-$password = base64_decode('TWltb3Jpc2hhMDE=');
+$servername = "beatrix.raxa.host";
+$username = "safmx_general";
+$password = '';
 $dbname = 'curso_php';
 
 // Create connection
