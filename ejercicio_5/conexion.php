@@ -1,4 +1,5 @@
 <?php 
+session_start();
 
 $servername = "localhost";
 $username = "curso_php";
@@ -8,11 +9,13 @@ $dbname = 'curso_php';
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-/*
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+function loggedin()
+{
+ if (isset($_SESSION['username'])||isset($_COOKIE['username']))
+ {
+    $loggedin = TRUE;
+    return $loggedin;
+ }
 }
-echo "Connected successfully <br>";
-*/
- ?>
+
+?>

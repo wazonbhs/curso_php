@@ -26,7 +26,7 @@ class Frutas
      {
      	$fruta = $this->FnRecuperaNombreFruta();
      	$color = $this->FnRecuperaColorFruta();
-     	return 'La fruta se llama '.$fruta.' y es de color '.$color.'<br>';
+     	return 'El email es '.$fruta.' y password es '.$color.'<br>';
      }
 }
 
